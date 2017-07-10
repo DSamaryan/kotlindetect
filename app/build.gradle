@@ -1,7 +1,5 @@
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
-apply plugin: 'io.gitlab.arturbosch.detekt'
-
 
 android {
     compileSdkVersion 26
@@ -37,11 +35,3 @@ dependencies {
 }
 
 
-detekt {
-    version = "1.0.0.M12.3"
-    profile("main") {
-        input = "$projectDir/src/main/java"
-        config = "$projectDir/detekt.yml"
-        filters = ".*test.*,.*/resources/.*,.*/tmp/.*"
-    }
-}
