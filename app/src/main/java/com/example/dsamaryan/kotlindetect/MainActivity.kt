@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
         v15: Int,
         v16: Int,
         pet: Pet
-    ): Unit {
+    ) {
         val v = v1 - v2 * v3
         when (pet) {
             Pet.DOG -> Log.d("", "")
