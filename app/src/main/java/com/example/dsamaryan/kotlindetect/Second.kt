@@ -5,5 +5,5 @@ package com.example.dsamaryan.kotlindetect
  */
 object Second {
 
-    const val e = 2.17
+    const val E = 2.17
 }

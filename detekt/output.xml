@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <checkstyle version="4.3">
 <file name="com/example/dsamaryan/kotlindetect/MainActivity.kt">
-	<error line="19" column="13" severity="warning" message="(LongParameterList)" source="detekt.LongParameterList" />
-	<error line="39" column="9" severity="warning" message="(DuplicateCaseInWhenExpression)" source="detekt.DuplicateCaseInWhenExpression" />
-	<error line="16" column="16" severity="error" message="(ExplicitGarbageCollectionCall)" source="detekt.ExplicitGarbageCollectionCall" />
-	<error line="10" column="9" severity="warning" message="All names in the codebase should be matching the naming convention of the codebase.(NamingConventionViolation)" source="detekt.NamingConventionViolation" />
-</file>
-<file name="com/example/dsamaryan/kotlindetect/Second.kt">
-	<error line="8" column="5" severity="warning" message="All names in the codebase should be matching the naming convention of the codebase.(NamingConventionViolation)" source="detekt.NamingConventionViolation" />
+	<error line="15" column="13" severity="warning" message="(LongParameterList)" source="detekt.LongParameterList" />
+	<error line="35" column="9" severity="warning" message="(DuplicateCaseInWhenExpression)" source="detekt.DuplicateCaseInWhenExpression" />
+	<error line="12" column="16" severity="error" message="(ExplicitGarbageCollectionCall)" source="detekt.ExplicitGarbageCollectionCall" />
+	<error line="55" column="5" severity="warning" message="Companion object should be placed last in class(CompanionObjectOrder)" source="detekt.CompanionObjectOrder" />
+	<error line="56" column="9" severity="warning" message="All names in the codebase should be matching the naming convention of the codebase.(NamingConventionViolation)" source="detekt.NamingConventionViolation" />
 </file>
 </checkstyle>

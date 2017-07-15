@@ -6,10 +6,6 @@ import android.util.Log
 
 class MainActivity : AppCompatActivity() {
 
-    companion object {
-        private const val pi = 3.14f
-    }
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -34,12 +30,12 @@ class MainActivity : AppCompatActivity() {
         v15: Int,
         v16: Int,
         pet: Pet
-    ) {
-        val v=v1-v2*v3
-        when(pet) {
-            Pet.DOG -> Log.d("","")
-            Pet.CAT -> Log.d("","")
-            Pet.CAT -> Log.d("","")
+    ): Unit {
+        val v = v1 - v2 * v3
+        when (pet) {
+            Pet.DOG -> Log.d("", "")
+            Pet.CAT -> Log.d("", "")
+            Pet.CAT -> Log.d("", "")
         }
     }
     abstract class A {
@@ -56,8 +52,13 @@ class MainActivity : AppCompatActivity() {
             = if (x == Math.cos(x)) x else findFixPoint(Math.cos(x))
     }
 
+    companion object {
+        private const val pi = 3.14f
+    }
+
     enum class Pet {
         DOG,
         CAT
     }
+
 }
